@@ -7,28 +7,34 @@ const App = () =>{
   const [tasks, setTasks] = useState([
     {
         id: 1,
-        text: 'Euclid',
+        text: 'Euclid (done)',
         day: 'April 7th',
         reminder: true,
 
     },
     {
       id: 2,
-      text: 'Check-in meeting',
+      text: 'Check-in meeting (done)',
       day: 'April 8th',
       reminder : true,
    },
     {
         id: 3,
-        text: 'Data project',
+        text: 'Data project (done)',
         day: 'April 12th',
         reminder: true,
     },
     {
         id: 4,
-        text: 'Hypatia',
+        text: 'Hypatia (done)',
         day: 'April 14th',
         reminder: true,
+    },
+    {   id: 5, 
+        text: 'French project',
+        day: 'April 19th',
+        reminder: true,
+
     },
 ])
 
@@ -76,3 +82,7 @@ const bodyStyling = {
 
 
 export default App;
+
+
+
+
