@@ -1,13 +1,13 @@
 import Task from './Task'
 
-const Tasks = ({tasks}) => {
+const Tasks = ({tasks, onClick}) => {
     
 
     return (
 
         <>
         {tasks.map((arrayElement) => (
-            <Task key={arrayElement.id} task={arrayElement} />
+            <Task key={arrayElement.id} task={arrayElement} onClick={onClick} />
         ))}
         </>
     )
